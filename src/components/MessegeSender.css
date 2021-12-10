@@ -1,0 +1,63 @@
+.messegeSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+
+  width: 100%;
+}
+.top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+.top > form {
+  flex: 1;
+  display: flex;
+}
+.top > form > input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+.top > form > button {
+  background-color: #2e81f2;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  border: #2e81f2;
+  width: 60px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.top > form > button:hover {
+  transform: scale(1.05);
+}
+.input {
+  flex: 1;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+.option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+.option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}

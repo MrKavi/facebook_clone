@@ -1,0 +1,21 @@
+.sidebar {
+  position: sticky;
+  top: 78px;
+  height: 100%;
+  padding: 25px 10px;
+  width: 20%;
+  flex: 0.33;
+}
+.clearfix {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.footer-copyright {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  align-items: center;
+  justify-content: space-between;
+  bottom: fixed;
+}
